@@ -13,7 +13,7 @@
       <g-link class="post-card__link" :to="post.path">Link</g-link>
       -->
       
-      <a class="post-card__link" href="https://420doges.com">Link</a>
+      <a class="post-card__link" :href="post.external">Link</a>
       
     </div>
   </div>
