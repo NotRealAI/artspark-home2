@@ -12,7 +12,7 @@
 		
 
 		<p class="author__links">
-			<a href="//twitter.com/{{ $static.metadata.twitter }}">Twitter</a>
+			<a href="//twitter.com/artspark_io">Twitter</a>
 		</p>
 
 	</div>
