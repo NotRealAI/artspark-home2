@@ -16,10 +16,11 @@
           window.__onThemeChange(newTheme);
         }
 
-        var preferredTheme = 'dark';
+        var preferredTheme;
         try {
           preferredTheme = localStorage.getItem('theme');
         } catch (err) { }
+	preferredTheme = preferredTheme || 'dark';
 
         window.__setPreferredTheme = function(newTheme) {
           setTheme(newTheme);
