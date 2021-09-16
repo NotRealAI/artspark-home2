@@ -13,11 +13,12 @@
 
 <page-query>
 query {
-  posts: allPost(filter: { published: { eq: true }}) {
+  posts: allPost(filter: { published: { eq: true }}, sort: [{ by: "order", order: DESC }, { by: "date", order: DESC }]) {
     edges {
       node {
         id
         title
+        order
         date (format: "D. MMMM YYYY")
         timeToRead
         description
