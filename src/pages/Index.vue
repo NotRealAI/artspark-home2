@@ -26,8 +26,10 @@ query {
         id
         title
         path
+        external
         }
         path
+        external
         tags {
           id
           title
